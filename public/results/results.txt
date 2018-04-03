@@ -1,0 +1,9 @@
+TESTS
+
+ab -n 1000 http://127.0.0.1:9850/
+
+Requests per second:    936.17 [#/sec] (mean)
+
+ab -n 1000 -H 'Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYzM2MjAxMjExNjQzMTRkMjc4YzcyYSIsInVzZXJuYW1lIjoidGVzdGUiLCJzY29wZXMiOlsidXNlciJdLCJpYXQiOjE1MjI3NTQwNDksImV4cCI6MTU1NDMxMTY0OX0.kmChECCZcbAmvR94U-c-VMIU3pHj5MvBxMLhKSlOekQ' http://127.0.0.1:9850/api/user
+
+Requests per second:    310.83 [#/sec] (mean)

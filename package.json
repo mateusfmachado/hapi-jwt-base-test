@@ -1,0 +1,25 @@
+{
+  "name": "hapi-jwt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mateus machado",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "boom": "^7.1.1",
+    "code": "^5.1.2",
+    "glob": "^7.1.2",
+    "hapi": "^16.6.2",
+    "hapi-auth-jwt2": "^7.3.0",
+    "hapi-cors": "^1.0.1",
+    "joi": "^13.0.2",
+    "jsonwebtoken": "^8.1.0",
+    "knex": "^0.14.2",
+    "lab": "^15.1.2",
+    "mongoose": "^4.13.7"
+  }
+}
